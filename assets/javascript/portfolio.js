@@ -10,19 +10,19 @@ $(document).ready(() => {
   const links = [
     {
       name: 'my discord',
-      link: 'discord.com/users/745631824163766412',
+      link: 'discord.com/users/1117972111877734480',
     },
     {
       name: 'spotify',
       link: 'open.spotify.com/user/31v42o74y7gq2krt6byixmiboebe?si=f4cd8992f55d42ab',
     },
     {
-      name: 'corrupt.bio',
-      link: 'corrupt.bio/z',
+      name: 'wanted',
+      link: 'wanted.lol/v1straba',
     },
        {
       name: 'tiktok',
-      link: 'tiktok.com/@wbbm',
+      link: 'tiktok.com/@sxe108',
     }
   ];
 
@@ -42,7 +42,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['z', 'zu', 'zur', 'zurl', 'zurly', 'zurly $']);
+  app.titleChanger(['v', 'vi', 'vis', 'vist', 'vistra', 'vistraba $']);
   app.iconChanger(['assets/icons/rose1.jpg', 'assets/icons/rose2.jpg', 'assets/icons/rose3.jpg', 'assets/icons/rose4.jpg', 'assets/icons/rose5.jpg', 'assets/icons/rose6.jpg', 'assets/icons/rose7.jpg', 'assets/icons/rose7.jpg', 'assets/icons/rose1.jpg']);
 });
 
@@ -120,7 +120,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>zurly#0001 </i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>Vistraba#0245 </i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
